@@ -1,9 +1,10 @@
 
 
 import './App.css'
-import CategoryButton from './components/buttons/categoryButton'
-import ResourceButton from './components/buttons/resourceButton'
-import { OkButton, LoginButton } from './components/buttons/squareButton'
+import CategoryButton from './components/buttons/CategoryButton'
+import ResourceButton from './components/buttons/ResourceButton'
+import { OkButton, LoginButton } from './components/buttons/SquareButton'
+import { FooterLogin, FooterRegister } from './components/footerLine'
 
 
 
@@ -19,6 +20,8 @@ function App() {
         {/* <SquareButton /> */}
         <CategoryButton/>
         <ResourceButton/>
+        <FooterLogin />
+        <FooterRegister />
       </div>
     </>
   )
