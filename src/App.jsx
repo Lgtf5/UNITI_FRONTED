@@ -13,16 +13,16 @@ function App() {
 
   return (
     <>
-      <div className="App">
+{/*       <div className="App">
         <h1>Button Component</h1>
         <OkButton/>
         <LoginButton />
-        {/* <SquareButton /> */}
+        <SquareButton />
         <CategoryButton/>
         <ResourceButton/>
         <FooterLogin />
         <FooterRegister />
-      </div>
+      </div> */}
     </>
   )
 }
