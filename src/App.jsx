@@ -1,12 +1,7 @@
-
-
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
-import CategoryButton from './components/buttons/CategoryButton'
-import ResourceButton from './components/buttons/ResourceButton'
-import { OkButton, LoginButton } from './components/buttons/SquareButton'
-import { FooterLogin, FooterRegister } from './components/footerLine'
-
-
 
 function App() {
   
