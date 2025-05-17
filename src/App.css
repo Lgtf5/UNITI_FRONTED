@@ -31,10 +31,32 @@
 .category-button {
   width: 60%;
   height: 5%;
-  background-color: rgb(150, 141, 15);
-  border: 0.1rem rgb(138, 18, 118) solid;
+  
+  background-color: rgb(255, 255, 255);
+  border: 0.1rem rgb(219, 111, 201) solid;
   border-radius: 0.8rem;
   font-size: 12px;
 
 }
 
+.category-button {
+  width: 81%;
+}
+.category-title {
+  margin-left:60% ;
+  margin-top: -23%;
+  color:rgb(104, 103, 103);
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #0f0f0f;
+  
+}
+.category-description {
+  margin-top: 22%;
+  color:black;
+  
+}
+.category-img {
+  width: 104.3%;
+  margin-left: -1.9%;
+  margin-top: -1%;
+}
