@@ -1,5 +1,7 @@
 import CategoryContainer from './components/buttons/categoryButton'
 import './App.css'
+import ResourceButton from './components/buttons/resourceButton'
+import ResourcesContainer from './components/buttons/resourceButton'
 
 function App() {
   
@@ -11,8 +13,8 @@ function App() {
         {/* <OkButton/> */}
         {/* <LoginButton /> */}
         {/* <SquareButton /> */}
-        <CategoryContainer />
-        {/* <ResourceButton/> */}
+        {/* <CategoryContainer /> */}
+        <ResourcesContainer />
         {/* <FooterLogin /> */}
         {/* <FooterRegister /> */}
       </div>
