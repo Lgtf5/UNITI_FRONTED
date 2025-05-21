@@ -1,0 +1,18 @@
+
+
+.eclipse {
+    width: 13.68rem;
+    height: 10rem;
+    flex-shrink: 0;
+    /* margin-inline-start: -2.75rem;
+    margin-block-start: -2rem; */
+
+}
+
+.logo-resource {
+    width: 7.81rem;
+    height: 3.37rem;
+    flex-shrink: 0;
+    margin-bottom: 0.440rem;
+    margin-left: -9.31rem;
+}

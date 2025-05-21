@@ -1,5 +1,7 @@
-import CategoryContainer from './components/buttons/categoryButton'
+
 import './App.css'
+
+
 
 function App() {
   
@@ -7,11 +9,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Button Component</h1>
+        {/* <HeaderApp /> */}
+        {/* <h1>Button Component</h1> */}
         {/* <OkButton/> */}
         {/* <LoginButton /> */}
         {/* <SquareButton /> */}
-        <CategoryContainer />
+        {/* <CategoryContainer /> */}
         {/* <ResourceButton/> */}
         {/* <FooterLogin /> */}
         {/* <FooterRegister /> */}
