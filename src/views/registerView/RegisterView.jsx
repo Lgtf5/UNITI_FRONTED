@@ -28,7 +28,7 @@ export function RegisterView() {
                     </div>
                 </form>
             </div>
-            <footer className="register-link"><FooterLogin /></footer>
+            <footer className="login-link"><FooterLogin /></footer>
 
         </>
     );

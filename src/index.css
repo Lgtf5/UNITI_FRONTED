@@ -19,11 +19,12 @@
   
 }
 
-body {
+body, html {
   display: flex;
   flex-direction: column;
   margin: 0%;
   padding: 0%;
+  height: 100%;
   width: 100%;
 
   /* font-family: 'Poppins', sans-serif; */
@@ -41,7 +42,7 @@ h1 {
   /* font-family: 'Poppins', sans-serif; */
   padding: 1rem;
 }
-
+/* 
 footer {
   display: flex;
   flex-direction: column;
@@ -53,9 +54,8 @@ footer {
   justify-content: center;
   letter-spacing: 6%;
   font-size: 0.8rem;
-  /* font-family: 'Poppins', sans-serif; */
 
-}
+} */
 
 /* body {
   margin: 0;

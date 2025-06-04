@@ -2,11 +2,11 @@ function FooterLine({text, mode}) {
  
     return (
         <div>
-            <footer className='footer-container'>
+            <section className='footer-container'>
                 <p className='footer-line'>{text}
                     <a className='footer-ico'>{mode}</a>
                 </p>
-            </footer>
+            </section>
         </div>
     )
 }
