@@ -1,7 +1,6 @@
 
 import './App.css'
-
-
+import { RegisterView } from './views/registerView/RegisterView'
 
 function App() {
   
@@ -9,7 +8,7 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <HeaderApp /> */}
+        <RegisterView />
         {/* <h1>Button Component</h1> */}
         {/* <OkButton/> */}
         {/* <LoginButton /> */}
