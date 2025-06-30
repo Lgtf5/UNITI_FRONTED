@@ -1,0 +1,24 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 9rem;
+    padding: 0;
+    max-height: 50vh;
+}
+.group {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+}
+.welcome-title {
+    font-size: 0.2rem;
+    color: rgb(23, 23, 32);
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
