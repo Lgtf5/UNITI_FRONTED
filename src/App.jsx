@@ -1,29 +1,25 @@
 
-import './App.css'
-import { LoginView } from './views/loginView/LoginView'
-import { RegisterView } from './views/registerView/RegisterView'
+import './App.css';
+// import { WelcomeView } from './views/welcomeView/WelcomeView';
+// import { LoginView } from './views/loginView/LoginView'
+// import { RegisterView } from './views/registerView/RegisterView'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import{ MainLayout } from './layouts/MainLayout';
+// import NotFound from './pages/NotFound';
 
+import { AppRouter } from './routes/AppRouter';
 
 function App() {
-  
-
   return (
     <>
-      <div className="App">
-        <RegisterView />
-        {/* <LoginView /> */}
-        {/* <HeaderApp /> */}
-        {/* <h1>Button Component</h1> */}
-        {/* <OkButton/> */}
-        {/* <LoginButton /> */}
-        {/* <SquareButton /> */}
-        {/* <CategoryContainer /> */}
-        {/* <ResourceButton/> */}
-        {/* <FooterLogin /> */}
-        {/* <FooterRegister /> */}
-      </div>
+      
+      <AppRouter />
     </>
   )
 }
 
-export default App
+
+
+
+export default App;
+

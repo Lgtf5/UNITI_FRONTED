@@ -1,7 +1,7 @@
-import HeaderApp from "../../components/HeaderApp/HeaderApp";
-import "./RegisterView.css";
-import { OkButton } from "../../components/buttons/squareButton";
-import { FooterLogin } from "../../components/FooterLine";
+import { HeaderApp } from '../../components/headerApp/HeaderApp'
+import './RegisterView.css'
+import { OkButton } from '../../components/buttons/SquareButton'
+import { FooterLogin } from '../../components/footerApp/FooterLine'
 
 export function RegisterView() {
     return (
@@ -24,7 +24,7 @@ export function RegisterView() {
                     </div>
 
                     <div className="ok-button" >
-                        <OkButton />
+                        <Link to="/login"><OkButton /></Link>
                     </div>
                 </form>
             </div>

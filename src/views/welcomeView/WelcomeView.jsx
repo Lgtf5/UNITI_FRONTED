@@ -1,6 +1,16 @@
-export default function WelcomeView() {
+
+import { Link } from 'react-router-dom'
+import  { LoginButton }  from '../../components/buttons/SquareButton'
+import  { HeaderApp }  from '../../components/headerApp/HeaderApp'
+import  { FooterRegister }  from '../../components/footerApp/FooterLine'
+
+export function WelcomeView() {
 
     return(
+        <>
+        
+        <HeaderApp />
+
         <div className="welcome"> 
                 <img className="group" src="./fondo.svg" alt="imagen grupo" />
                 <div className="welcome-title">
@@ -11,5 +21,11 @@ export default function WelcomeView() {
                 </h3>
                 
         </div>
+        <Link className="login-link" to="/login">
+            <LoginButton />
+        </Link>
+
+        <FooterRegister />
+        </>
     )
 }
