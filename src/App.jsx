@@ -2,6 +2,7 @@
 import './App.css'
 import { LoginView } from './views/loginView/LoginView'
 import { RegisterView } from './views/registerView/RegisterView'
+import { SectionView } from './views/sectionView/SectionView'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <RegisterView />
+        <SectionView />
         {/* <LoginView /> */}
         {/* <HeaderApp /> */}
         {/* <h1>Button Component</h1> */}
